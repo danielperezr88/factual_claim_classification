@@ -24,4 +24,4 @@ predict:
     model:
         name: "bert"
         subtype: "bert-base-multilingual-cased"
-        from_file: "./models/bert-base-multilingual-cased_1603012337.pt"
+        from_file: "./models/bert-base-multilingual-cased_1603075225.pt"
