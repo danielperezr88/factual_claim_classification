@@ -24,3 +24,6 @@ models/*
 
 # Notebooks and artifacts related
 notebooks/
+
+# Artifact of Markdown plugins
+README.html
