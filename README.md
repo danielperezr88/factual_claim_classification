@@ -2,11 +2,11 @@
 
 **Note**: Training data is not added to this repository on purpose, as I didn't have ownership nor
 permission to share it. However, the data model can be easily figured out by checking
-[the HTML report](factual_claim_classification.html), and a quick search on Google makes easy to
+[the Markdown report](factual_claim_classification.md), and a quick search on Google makes easy to
 find even bigger public factual claim classification datasets.
 
 All code for this example resides on [the notebook](factual_claim_classification.ipynb), of which
-you may also find an HTML [render as a report for a complete successful run](factual_claim_classification.html).
+you may also find a Markdown [report for a complete successful run](factual_claim_classification.md).
 
 Although the notebook is thoroughtly commented, I'll share a brief summary here:
 - The notebook is designed to be **compatible with Google Colab's TPUs**, although in practice free
@@ -14,7 +14,7 @@ Although the notebook is thoroughtly commented, I'll share a brief summary here:
   data to/from those and the fact that training data for this exercise is very small.
 - In the first cells **there's code for cloning the repo in Google Colab and downloading from a
   public Google Storage bucket the model files** needed to obtain the results shown in
-  [the HTML report](factual_claim_classification.html). Code for cloning the repo asks for
+  [the Markdown report](factual_claim_classification.md). Code for cloning the repo asks for
   credentials, so you must have a GitHub account to use that.
 - The model chosen for fine tuning is **Google's recommended version of Multilingual BERT**, called
   'bert-base-multilingual-cased' (non-case-agnostic version), from which I've decided to **freeze all
