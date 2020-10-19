@@ -1,0 +1,27 @@
+
+# TPU not recommended for this use case (time spent loading and unloading data
+# between memory and the TPU exceeds time saved in computation per epoch, 
+# because of too little training data).
+TPUs: False
+
+datasets:
+    path: "./data"
+ 
+train:
+    model:
+        name: "bert"
+        subtype: "bert-base-multilingual-cased"
+        output_path: "./models"
+        from_folder: "./bert-base-multilingual-cased"
+   
+    batch_size: 32
+    max_length: 32
+    lr: 0.0005 # 0.00003
+    epochs: 50
+    train_pct: .7
+ 
+predict:
+    model:
+        name: "bert"
+        subtype: "bert-base-multilingual-cased"
+        from_file: "./models/bert-base-multilingual-cased_1603012337.pt"
