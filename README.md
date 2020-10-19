@@ -1,5 +1,10 @@
 # Factual claim classification with a BERT-based fine-tuned model
 
+**Note**: Training data is not added to this repository on purpose, as I didn't have ownership nor
+permission to share it. However, the data model can be easily figured out by checking
+[the HTML report](factual_claim_classification.html), and a quick search on Google makes easy to
+find even bigger public factual claim classification datasets.
+
 All code for this example resides on [the notebook](factual_claim_classification.ipynb), of which
 you may also find an HTML [render as a report for a complete successful run](factual_claim_classification.html).
 
